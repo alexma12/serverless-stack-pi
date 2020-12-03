@@ -1,0 +1,19 @@
+{
+    "configurations": [
+        {
+            "type": "aws-sam",
+            "request": "direct-invoke",
+            "name": "Desktop:create.main (nodejs12.x)",
+            "invokeTarget": {
+                "target": "code",
+                "projectRoot": "",
+                "lambdaHandler": "create.main"
+            },
+            "lambda": {
+                "runtime": "nodejs12.x",
+                "payload": {},
+                "environmentVariables": {}
+            }
+        }
+    ]
+}
